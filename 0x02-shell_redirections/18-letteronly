@@ -1,2 +1,2 @@
 #!/bin/bash
-egrep '^[[a-z]]' /etc/passwd
+grep -i '^[a-z]' /etc/ssh/sshd_config
